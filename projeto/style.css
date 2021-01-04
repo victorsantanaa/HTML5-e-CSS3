@@ -384,32 +384,27 @@ body {
   background-attachment: fixed;
   color: #fff;
   padding: 30px 0; }
-
-.depoimentos_item {
-  padding: 0 15px; }
-
-.depoimentos_img {
-  margin: 0 auto;
-  display: block;
-  box-shadow: 3px 3px 0 #000;
-  margin-bottom: 30px; }
-
-.depoimentos_pessoa {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic; }
-
-.depoimentos__texto {
-  line-height: 24px;
-  margin-bottom: 30px; }
-
-.depoimentos__texto::before {
-  background: url("../img/aspas.png") no-repeat;
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 23px;
-  margin-right: 5px; }
+  .depoimentos__item {
+    padding: 0 15px; }
+  .depoimentos__img {
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px 0 #000;
+    margin-bottom: 30px; }
+  .depoimentos__pessoa {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic; }
+  .depoimentos___texto {
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .depoimentos__texto::before {
+    background: url("../img/aspas.png") no-repeat;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px; }
 
 .formulario {
   background-color: #efecec;
@@ -456,20 +451,19 @@ body {
   background-image: url("../img/logotipo-branco.png"); }
 
 .mapa {
-  background: #f00;
+  background: #f44242;
   height: 0;
   padding-bottom: 100%;
   position: relative;
   overflow: hidden;
   margin: 0 -15px -25px -15px; }
-
-.mapa iframe {
-  width: 100% !important;
-  /* !important garante que a propriedade será reescrita para esse paramentro*/
-  height: 100% !important;
-  position: absolute;
-  top: 0;
-  left: 0; }
+  .mapa iframe {
+    width: 100% !important;
+    /* !important garante que a propriedade será reescrita para esse paramentro*/
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0; }
 
 .menu-principal__btn {
   display: block;
@@ -507,7 +501,7 @@ body {
   color: #f44242; }
 
 .pagina-cabecalho {
-  background-color: #dd3f3f;
+  background-color: #f44242;
   background-image: url("../img/cabecalho-pagina-bg.jpg");
   color: #fff;
   padding-top: 40px;
@@ -548,7 +542,7 @@ body {
   margin-bottom: 50px; }
 
 .servicos__texto {
-  color: #585858; }
+  color: #3a3a3a; }
 
 .cabecalho-home {
   background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
@@ -574,7 +568,7 @@ body {
   display: block;
   width: 50px;
   height: 3px;
-  background-color: #f00;
+  background-color: #f44242;
   margin: 0 auto;
   margin-top: 15px; }
 

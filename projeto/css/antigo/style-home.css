@@ -64,6 +64,7 @@
     margin: 0 auto;
     display: block;
     box-shadow: 3px 3px 0 #000;
+    margin-bottom: 30px;
 }
 
 .depoimentos_pessoa{
@@ -72,4 +73,16 @@
     font-style: italic;
 }
 
+.depoimentos__texto{
+    line-height: 24px;
+    margin-bottom: 30px;
+}
 
+.depoimentos__texto::before{
+    background: url('../img/aspas.png') no-repeat;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px;
+}
