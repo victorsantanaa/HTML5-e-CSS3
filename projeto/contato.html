@@ -7,31 +7,33 @@
     <title>Design Responsivo - Contato</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="pagina-contato">
     <header class="cabecalho">
-        <a href="index.html" class="logo">Design Responsivo</a>
-        <nav class="menu-principal">
-            <button class="menu-principal__btn">Abrir/Fechar menu</button>
-            <ul class="menu-principal__lista">
-                <li><a class="menu-principal__item" href="index.html">Home</a></li>
-                <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
-                <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
-                <li><a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="index.html" class="logo">Design Responsivo</a>
+            <nav class="menu-principal">
+                <button class="menu-principal__btn">Abrir/Fechar menu</button>
+                <ul class="menu-principal__lista">
+                    <li><a class="menu-principal__item" href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <header class="pagina-cabecalho">
             <h1 class="pagina-cabecalho__titulo">Contato</h1>
         </header>
-        <section class="pagina-conteudo">
-            <p class="text-center">ahuhusauashauadafosidvasiofja cvbaojl c</p>
+        <section class="container pagina-conteudo">
+            <p class="text-center">Suspendisse convallis, turpis vitae placerat luctus, est felis dictum augue.</p>
             <form action="#" class="formulario">
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-esq">
                     <label class="formulario__label" for="nome">Nome</label><br>
                     <input class="formulario__campo" type="text" name="nome" id="nome">
                 </div>
-                <div class="formulario__grupo">
+                <div class="formulario__grupo formulario__grupo--coluna-dir">
                     <label class="formulario__label" for="email">E-mail</label><br>
                     <input class="formulario__campo" type="email" name="email" id="email">
                 </div>
@@ -42,37 +44,39 @@
                 <input type="submit" class="formulario__botao" value="Enviar">
             </form>
             <p class="text-center">
-                hugfkofqvjhijhbcuohicw <br>
-                huhuygas8 56ahguashiasyg huasbkjt87 nmvuGIYADSUH
-            </p>
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5168.793448172964!2d-46.531164771759556!3d-23.644149570655593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1spt-BR!2sbr!4v1607465516078!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+                Maecenas facilisis volutpat ipsum, sed faucibus tortor aliquam non.<br>
+                Aliquam erat volutpat. Vivamus cursus pulvinar turpis, nec blandit augue maximus ac.
+             </p>
         </section>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d5168.793448172964!2d-46.531164771759556!3d-23.644149570655593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1smaps!5e0!3m2!1spt-BR!2sbr!4v1607465516078!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </main>
     <footer class="rodape">
         <div class="rodape__linha-1">
-            <div class="rodape__coluna">
-                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
-                <p>Blablablabalbal blablablabal blablablal</p>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Social</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links__item" href="https://twitter.com/Beguins" target="_blank">Twitter</a></li>
-                    <li><a class="rodape__lista-links__item" href="https://facebook.com"target="_blank">Facebook</a></li>
-                    <li><a class="rodape__lista-links__item" href="https://instagram.com"target="_blank">Instagram</a></li>
-                </ul>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Links</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
-                    <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
-                    <li><a class="rodape__lista-links__item" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
-                </ul>
-            </div>
+            <div class="container">
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                    <p>Blablablabalbal blablablabal blablablal</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="https://twitter.com/Beguins" target="_blank">Twitter</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://facebook.com"target="_blank">Facebook</a></li>
+                        <li><a class="rodape__lista-links__item" href="https://instagram.com"target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links__item" href="index.html">Home</a></li>
+                        <li><a class="rodape__lista-links__item" href="sobre.html">Sobre nós</a></li>
+                        <li><a class="rodape__lista-links__item" href="portfolio.html">Portfolio</a></li>
+                        <li><a class="rodape__lista-links__item" href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div><!--fim do container-->
         </div>
         <div class="rodape__linha-2">
             © 2020 - Victor Santana Todos os direitos reservados

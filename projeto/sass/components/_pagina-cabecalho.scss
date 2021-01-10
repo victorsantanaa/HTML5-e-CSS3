@@ -2,22 +2,22 @@
     background-color: $cor-principal;
     background-image: url("../img/cabecalho-pagina-bg.jpg");
     color: #fff;
-    padding-top: 40px;
+    padding-top: 140px;
     padding-bottom: 40px;
     background-attachment: fixed;
-}
-
-.pagina-cabecalho__titulo{
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.pagina-cabecalho__titulo::after{
-    width: 50px;
-    height: 3px;
-    content: '';
-    display: block;
-    background-color: #fff;
-    margin: 0 auto; /*top&bottom left&right*/
-    margin-top: 20px;
+    
+    &__titulo{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    &__titulo::after{
+        width: 50px;
+        height: 3px;
+        content: '';
+        display: block;
+        background-color: #fff;
+        margin: 0 auto; /*top&bottom left&right*/
+        margin-top: 20px;
+    }
 }

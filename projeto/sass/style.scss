@@ -1,5 +1,6 @@
 // Abstracts
 @import 'abstracts/_cores';
+@import 'abstracts/_breakpoints';
 
 // Base
 @import 'base/_fontes';
@@ -7,11 +8,13 @@
 @import 'base/_meu-reset';
 
 //Layout
+@import 'layout/_container';
 @import 'layout/_cabecalho';
 @import 'layout/_rodape';
+@import 'layout/_alinhamento-textos';
+@import 'layout/_alinhamento-img';
 
 //Components
-@import 'components/_alinhamento-textos';
 @import 'components/_depoimentos';
 @import 'components/_formulario';
 @import 'components/_logo';

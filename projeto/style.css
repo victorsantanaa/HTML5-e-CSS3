@@ -528,7 +528,7 @@ body {
   padding-bottom: 25px; }
 
 .pagina-conteudo p {
-  color: #3a3a3a;
+  color: green;
   line-height: 22px;
   margin-top: 20px;
   margin-bottom: 20px; }
@@ -542,7 +542,7 @@ body {
   margin-bottom: 50px; }
 
 .servicos__texto {
-  color: #3a3a3a; }
+  color: green; }
 
 .cabecalho-home {
   background: url("../img/cabecalho-home-bg.jpg") #000 no-repeat;
