@@ -1,0 +1,12 @@
+@import '_variaveis';
+body{
+    background: $cor-primaria;
+    max-width: $largura-maxima;
+}
+h1{
+    color: #000;
+}
+p{
+    color:#000;
+    background: $cor-primaria;
+}

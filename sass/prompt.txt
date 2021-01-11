@@ -1,0 +1,14 @@
+Comando: 
+node-sass style.scss style.css
+Função:
+Trasnformar de SASS para CSS
+
+Comando:
+node-sass --output-style compressed style.scss style.css
+Função:
+Cria um arquivo comprimido tirando todos os espaços.
+
+Comando:
+node-sass -w --output-style compressed style.scss style.css
+Função:
+Continuar assistindo as mudanças que realizar no arquivo principal

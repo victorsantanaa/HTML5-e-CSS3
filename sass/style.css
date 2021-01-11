@@ -1,0 +1,10 @@
+body {
+  background: #f00;
+  max-width: 800px; }
+
+h1 {
+  color: #000; }
+
+p {
+  color: #000;
+  background: #f00; }
